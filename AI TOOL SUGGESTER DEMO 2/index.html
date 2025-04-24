@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tool Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">AI</div>
+                <span>AI Tool Finder</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#search">Find Tools</a></li>
+                    <li><a href="#popular">Popular Tools</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Find the Perfect AI Tool for Your Task</h1>
+            <p>Describe what you want to do, and we'll suggest the best AI tools for the job</p>
+            
+            <div class="search-container" id="search">
+                <div class="search-box">
+                    <input type="text" id="task-input" placeholder="E.g., remove background from image, summarize an article...">
+                    <button id="search-btn">Find Tools</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="results-section">
+        <div class="container">
+            <div id="results-container"></div>
+        </div>
+    </section>
+
+    <section class="popular-section" id="popular">
+        <div class="container">
+            <h2>Popular AI Tasks</h2>
+            <div class="popular-tasks">
+                <div class="task-item" data-task="remove background from image">
+                    <div class="task-icon">🖼️</div>
+                    <h3>Remove Image Background</h3>
+                </div>
+                <div class="task-item" data-task="generate images with AI">
+                    <div class="task-icon">🎨</div>
+                    <h3>Create AI Images</h3>
+                </div>
+                <div class="task-item" data-task="transcribe audio to text">
+                    <div class="task-icon">🎤</div>
+                    <h3>Transcribe Audio</h3>
+                </div>
+                <div class="task-item" data-task="create logos with AI">
+                    <div class="task-icon">📝</div>
+                    <h3>Design Logos</h3>
+                </div>
+                <div class="task-item" data-task="summarize long text">
+                    <div class="task-icon">📃</div>
+                    <h3>Summarize Text</h3>
+                </div>
+                <div class="task-item" data-task="generate code with AI">
+                    <div class="task-icon">💻</div>
+                    <h3>Generate Code</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2>About AI Tool Finder</h2>
+            <p>AI Tool Finder helps you discover the most relevant AI tools for your specific tasks. We maintain a curated database of the best AI solutions across various categories including image editing, content creation, data analysis, and more.</p>
+            <p>Our goal is to save you time by connecting you with the right AI tool for the job, whether you're a professional, student, or hobbyist.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AI Tool Finder. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
